@@ -1,0 +1,19 @@
+{
+  "name": "destiny-medal-detector",
+  "version": "0.0.1",
+  "description": "Finds Destiny medals in Xbox GameDVR clips.",
+  "main": "index.js",
+  "keywords": [
+    "destiny"
+  ],
+  "bin": {
+    "medaldetector": "./cli.js"
+  },
+  "author": "Dustin Rue <ruedu@dustinrue.com>",
+  "license": "MIT",
+  "dependencies": {
+    "ffmpeg": "dustinrue/node-ffmpeg#dmd",
+    "node-resemble": "dustinrue/node-resemble",
+    "tmp": "^0.0.30"
+  }
+}
