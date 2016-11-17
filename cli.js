@@ -16,7 +16,10 @@ if (sourceFile == '') {
 }
 else {
   try {
-    medalDetector(sourceFile);
+    var medals = medalDetector.medals();
+    medalDetector.detectMedals(sourceFile, medals, function(matchedMedals) {
+      console.log(matchedMedals.join(", "));
+    });
   }
   catch(e) {
     console.log(e.message);
