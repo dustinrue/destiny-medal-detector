@@ -12,6 +12,7 @@
   "author": "Dustin Rue <ruedu@dustinrue.com>",
   "license": "MIT",
   "dependencies": {
+    "canvas": "^1.6.2",
     "ffmpeg": "dustinrue/node-ffmpeg#dmd",
     "node-resemble": "dustinrue/node-resemble",
     "tmp": "^0.0.30"
